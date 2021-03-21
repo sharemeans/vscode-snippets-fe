@@ -1,0 +1,35 @@
+{
+    "name": "vscode-snippets-fe",
+    "publisher": "Sharemeans",
+    "displayName": "vscode-snippets-fe",
+    "description": "前端常用代码段",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sharemeans/vscode-snippets-fe.git"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "path": "./snippets/flex.code-snippets"
+            },
+            {
+                "path": "./snippets/ellipsis.code-snippets"
+            },
+            {
+                "language": "less",
+                "path": "./snippets/flex-less.json"
+            },
+            {
+                "language": "less",
+                "path": "./snippets/1px-less.json"
+            }
+        ]
+    }
+}
